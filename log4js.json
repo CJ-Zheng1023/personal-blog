@@ -1,0 +1,15 @@
+{
+    "appenders": [
+
+        {
+            "type": "dateFile",
+            "filename": "d:/logs/kep-logs/",
+            "pattern": "yyyy-MM-dd.log",
+            "alwaysIncludePattern": true
+
+        }
+
+],
+    "levels":{ "logInfo": "DEBUG"}
+
+}
